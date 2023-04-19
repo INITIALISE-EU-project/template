@@ -70,8 +70,8 @@ project_name/
 
 ## Converting the manual
 
-- [docx](manual.docx)
-- [pdf](manual.pdf)
+- [docx](https://github.com/antagomir/template/raw/main/manual.docx)
+- [pdf](https://github.com/antagomir/template/raw/main/manual.pdf)
 - [qmd](manual.qmd) (source)
 
 
