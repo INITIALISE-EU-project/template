@@ -1,14 +1,13 @@
-# Turku Data Science Group Project Template
+# Project Template
 
-This is a generic template, forked from COMHIS project. Clone and rewrite to start a project with the template.
+This is a generic project template including good practices for code organization.  The aim is to enable painless internal reproduction of a project and to ease communication about a project's structure.
 
-The aim here is to create a model that enables somewhat painless internal reproduction of a project and to ease communication about a project's structure.
-
-**Most of the features here are recommendations, and can obviously be varied on as needed.**
+**Most of the features here are recommendations, and can be varied on as needed.**
 
 ## Repository name
 
-A proposal for unified naming scheme for publication related repositories is as follows: document type_date_project name. An example would be: `article_2019_hume_history_text_reuse`. Date should follow the format YYYYMMDD, with month and day optional, and would probably refer to the projected or actual end date of the project. The whole date -element can also be optional, to be included only if relevant, eg. `article_hume_history_text_reuse` would be equally valid.
+A proposal for unified naming scheme for publication related repositories is as follows: document type_date_project name. An example would be: `article_2023_kickoff`. Date should follow the format YYYYMMDD, with month and day optional, and would probably refer to the projected or actual end date of the project. The date -element can also be optional, to be included only if relevant, eg. `article_kickoff` would be equally valid.
+
 
 ## Practices
 
@@ -17,7 +16,7 @@ A proposal for unified naming scheme for publication related repositories is as 
     * Should list people involved and their roles in the project.
 * **Naming files and folders:**
     * Use all lowercase (except for established standards such as README.md and the .R filename extension).
-    * Separate words in file and directory names by underscore: `_`. eg. `south_sea_bubble.R` instead of `south-sea-bubble.R` or `SouthSeaBubble.R`.
+    * Separate words in file and directory names by underscore: `_`. eg. `my_project.R` instead of `my-project.R` or `MyProject.R`.
 * **Structure:**
     * Follow the directory structure laid out below.
     * Include `README.md` in each directory documenting the contents of that directory.
